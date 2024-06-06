@@ -12,7 +12,7 @@ name: Build x86_64-full_liebesu
 
 on:
   schedule:
-    - cron: 15 20 * * *
+    - cron: 15 20 10 * *
   repository_dispatch:
   workflow_dispatch:
     inputs:
